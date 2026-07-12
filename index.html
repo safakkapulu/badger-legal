@@ -85,27 +85,44 @@
   <main>
     <section id="gizlilik">
       <h1>Gizlilik Politikası</h1>
-      <p class="meta"><strong>Son güncelleme:</strong> 4 Temmuz 2026</p>
+      <p class="meta"><strong>Son güncelleme:</strong> 12 Temmuz 2026</p>
       <p class="meta"><strong>Uygulama:</strong> Badger (YDS Kelime Öğrenme)</p>
       <p class="meta"><strong>Veri Sorumlusu:</strong> Kenan Kapulu</p>
       <p class="meta"><strong>İletişim:</strong> kenankapulu@gmail.com</p>
 
       <h2>1. Özet</h2>
-      <p>Badger gizliliğe saygılı, <strong>çevrimdışı</strong> çalışan bir kelime
-      öğrenme uygulamasıdır. <strong>Hiçbir kişisel verinizi toplamıyor,
-      sunucularımıza göndermiyor veya üçüncü taraflarla paylaşmıyoruz.</strong>
-      Hesap oluşturmanız gerekmez; uygulamada reklam ve üçüncü taraf
-      analiz/izleme aracı bulunmaz.</p>
+      <p>Badger gizliliğe saygılı bir kelime öğrenme uygulamasıdır. Öğrenme
+      verileriniz <strong>yalnızca cihazınızda</strong> saklanır; hesap
+      oluşturmanız gerekmez ve uygulamada reklam bulunmaz. Uygulamayı
+      iyileştirmek için yalnızca <strong>anonim kullanım istatistikleri</strong>
+      (Google Firebase Analytics) toplarız; kimliğinizi ortaya çıkaran hiçbir
+      veri toplamaz, satmaz veya reklam amaçlı paylaşmayız.</p>
 
       <h2>2. Hangi verileri işliyoruz?</h2>
-      <p><strong>Sunucumuzda hiçbir veri tutulmaz.</strong> Uygulamayı kullanırken
-      oluşan tüm veriler <strong>yalnızca cihazınızda</strong> saklanır:</p>
+      <p>Öğrenme verileriniz sunucuda tutulmaz; kişisel içerikli tüm veriler
+      <strong>yalnızca cihazınızda</strong> saklanır:</p>
       <ul>
         <li>Öğrenme ilerlemeniz (öğrenilen kelimeler, tekrar aşamaları, seri/streak)</li>
         <li>Çalışma ayarları (günlük hedef, tema tercihi, bildirim tercihi)</li>
         <li>Topladığınız koleksiyon kartları</li>
       </ul>
-      <p>Bu veriler cihazınızdan çıkmaz. Uygulamayı silerseniz bu veriler de silinir.</p>
+      <p>Bu veriler cihazınızdan çıkmaz. Uygulamayı silerseniz bu veriler de
+      silinir.</p>
+      <p>Bunun dışında, hangi özelliklerin kullanıldığını anlamak için
+      <strong>anonim kullanım istatistikleri</strong> toplanır (ör. açılan
+      ekran, oturum süresi, cihaz modeli/iOS sürümü). Bu veriler Google
+      Firebase Analytics ile toplu olarak işlenir; ad, e-posta, konum gibi
+      kimlik bilgileri <strong>içermez</strong>.</p>
+
+      <h2>İlerleme senkronizasyonu (anonim hesap)</h2>
+      <p>Uygulama, cihazınız için <strong>anonim bir kimlik</strong> oluşturur ve
+      ilerlemenizin bir <strong>özetini</strong> (girdiğiniz isim, sınav tarihi,
+      hedef puan, öğrenilen kelime sayısı, seri, seviye ilerlemesi, son deneme
+      sonucu, kart sayısı) Google Firebase (Firestore) sunucularında saklar.
+      Amaç: ilerlemenin korunması ve uygulamanın geliştirilmesi. Telefon,
+      e-posta, konum gibi kimlik bilgileri toplanmaz. Sunucudaki özetin
+      silinmesini <a href="mailto:kenankapulu@gmail.com">kenankapulu@gmail.com</a>
+      adresinden talep edebilirsiniz.</p>
 
       <h2>3. Cihaz izinleri ve işletim sistemi hizmetleri</h2>
       <ul>
@@ -127,6 +144,13 @@
         alınması, yenilenmesi ve iptali dâhil tüm ödeme işlemleri Apple/Google
         tarafından yürütülür; ödeme veya kart bilgilerinize <strong>biz
         erişmeyiz</strong> ve bu bilgiler tarafımıza iletilmez.</li>
+        <li><strong>Google Firebase:</strong> Uygulama; anonim kullanım
+        istatistikleri (Analytics), uzaktan yapılandırma (duyuru/ayar) ve
+        içerik güncellemeleri için Google Firebase altyapısını kullanır. Bu
+        istekler sırasında IP adresiniz ve temel cihaz bilgileri Google
+        sunucularında (yurt dışında) geçici olarak işlenebilir. Ayrıntı:
+        <a href="https://policies.google.com/privacy">Google Gizlilik
+        Politikası</a>.</li>
         <li><strong>Yazı tipleri:</strong> Uygulama, görünüm için Google Fonts
         yazı tiplerini kullanabilir; bu durumda yazı tipi dosyaları Google
         sunucularından alınıp cihazınızda önbelleğe alınabilir. Bu istek kişisel
@@ -135,18 +159,18 @@
 
       <h2>5. Çocukların gizliliği</h2>
       <p>Badger, YDS sınavına hazırlanan yetişkin kullanıcılar için tasarlanmıştır.
-      Çocuklardan bilerek veri toplamayız (zaten hiçbir kullanıcıdan veri
-      toplamıyoruz).</p>
+      Çocuklardan bilerek kişisel veri toplamayız.</p>
 
       <h2>6. Veri güvenliği</h2>
-      <p>Verileriniz cihazınızda, işletim sisteminin uygulama korumalı alanı
-      (sandbox) içinde saklanır. Sunucuya veri göndermediğimiz için sunucu taraflı
-      bir sızıntı riski yoktur.</p>
+      <p>Öğrenme verileriniz cihazınızda, işletim sisteminin uygulama korumalı
+      alanı (sandbox) içinde saklanır. Sunucularımızda kişisel içerikli veri
+      tutulmadığından hesap/şifre sızıntısı gibi riskler söz konusu değildir.</p>
 
       <h2>7. Haklarınız (KVKK / GDPR)</h2>
-      <p>Kişisel veri toplamadığımız için işlediğimiz bir veriniz bulunmaz. Yine de
-      6698 sayılı KVKK md. 11 ve GDPR kapsamındaki haklarınızla ilgili her türlü
-      soru için bizimle iletişime geçebilirsiniz. Cihazınızdaki tüm uygulama
+      <p>6698 sayılı KVKK md. 11 ve GDPR kapsamındaki haklarınız için bizimle
+      iletişime geçebilirsiniz. Anonim istatistikler kimliğinizle
+      eşleştirilemediğinden kişiye özel silme teknik olarak mümkün olmayabilir;
+      toplamayı, uygulamayı kaldırarak durdurabilirsiniz. Cihazınızdaki tüm uygulama
       verisini, uygulamayı kaldırarak dilediğiniz an silebilirsiniz.</p>
 
       <h2>8. Değişiklikler</h2>
@@ -159,7 +183,7 @@
 
     <section id="kvkk">
       <h1>KVKK Aydınlatma Metni</h1>
-      <p class="meta"><strong>Son güncelleme:</strong> 4 Temmuz 2026</p>
+      <p class="meta"><strong>Son güncelleme:</strong> 12 Temmuz 2026</p>
       <p>Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") md. 10
       kapsamında aydınlatma yükümlülüğünü yerine getirmek amacıyla hazırlanmıştır.</p>
 
@@ -168,7 +192,12 @@
       <a href="mailto:kenankapulu@gmail.com">kenankapulu@gmail.com</a></p>
 
       <h2>İşlenen Kişisel Veriler</h2>
-      <p>Badger uygulaması <strong>kişisel veri toplamaz ve işlemez.</strong>
+      <p>Badger, öğrenme verilerinizi <strong>yalnızca cihazınızda</strong> saklar;
+      ilerleme/ayar/tercihleriniz tarafımıza aktarılmaz. Uygulamayı iyileştirmek
+      için <strong>anonim kullanım istatistikleri</strong> Google Firebase
+      Analytics ile işlenir (hukuki sebep: meşru menfaat, KVKK md. 5/2-f); bu
+      sırada IP ve temel cihaz bilgileri Google'ın yurt dışı sunucularında
+      geçici işlenebilir.</p><p>
       Uygulama içinde oluşturduğunuz öğrenme ilerlemesi, ayarlar ve tercihler
       <strong>yalnızca cihazınızda</strong> saklanır; tarafımıza veya herhangi bir
       sunucuya aktarılmaz. Bu veriler, bir kişiyi belirlenebilir kılacak şekilde
