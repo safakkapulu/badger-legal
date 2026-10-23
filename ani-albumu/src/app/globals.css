@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-krem: #faf6f1;
+  --color-murdum: #5b2a3c;
+  --color-gul: #b5677d;
+  --color-altin: #b8925a;
+  --font-serif: ui-serif, Georgia, "Times New Roman", serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-krem);
+  color: #2b2024;
+}
